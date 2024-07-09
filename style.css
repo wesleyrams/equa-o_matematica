@@ -1,0 +1,46 @@
+.cabecalho{
+    justify-content: center;
+    display: flex;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input input{
+    display: flex;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+.input button{
+    justify-content: center;
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    
+    
+}
+
+.delta h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.delta h4{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.delta p{
+    display:flex;
+    justify-content: center;
+    
+}
+
