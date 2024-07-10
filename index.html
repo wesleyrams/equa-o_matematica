@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="script.js">
 </head>
 <body>
+    <section>
     <div>
         <div class="cabecalho">
             <h1>Função do 2º grau: ax² + bx + c</h1>
         </div>
         <div class="input" >
             <div>
-                <h4 id="a">Digite o alor de A:</h4>
-                <h4 id="b">Digite o alor de B:</h4>
-                <h4 id="c">Digite o alor de C:</h4>
 
             </div>
-            <form>
-                <input type="text" id="name" >
-                <input type="text" id="name" >
+            <form onsubmit="return handleSubmit()" method="post" class="calculoForm">
+               <label for="valor1">Digite o alor de A:</label> 
+               <input type="number" id="valor1" >
 
-                <input type="text" id="name" >
+               <label for="valor2">Digite o alor de B:</label>
+                <input type="number" id="valor2" >
 
-                <input type="submit" id="send" onclick="enviar()" value="Enviar">
-                <span>Equação aqui</span>
+                <label for="valor3">Digite o alor de C:</label>
+                <input type="number" id="valor3" >
+
+                <input type="submit" id="send" value="Enviar">
+
+                <span id="valorSpan"></span>
                 </form>
            
                 <script src="script.js"></script>
@@ -42,10 +45,10 @@
 
             </div>
             <div>
-                <p>resultado do delta!</p>
+                <p id="resultadoDelta"></p>
             </div>
         </div>
     </div>
-    
+</section>  
 </body>
 </html>
